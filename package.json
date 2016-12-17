@@ -1,6 +1,6 @@
 {
   "name": "cash-year",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Like lodash but for year.",
   "license": "MIT",
   "repository": "egoist/cash-year",
