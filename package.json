@@ -1,0 +1,38 @@
+{
+  "name": "cash-year",
+  "version": "0.0.0",
+  "description": "Like lodash but for year.",
+  "license": "MIT",
+  "repository": "egoist/cash-year",
+  "author": {
+    "name": "EGOIST",
+    "email": "0x142857@gmail.com",
+    "url": "github.com/egoist"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "main": "./dist/cash-year.common.js",
+  "scripts": {
+    "test": "npm run build",
+    "build": "bili --exports named --format cjs --format umd --module-name '$year'"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "year",
+    "leap",
+    "days",
+    "lodash",
+    "utility"
+  ],
+  "devDependencies": {
+    "bili": "^0.9.1"
+  },
+  "dependencies": {
+    "leap-year": "^2.0.0",
+    "month-days": "^2.0.0",
+    "year-days": "^2.0.0"
+  }
+}
