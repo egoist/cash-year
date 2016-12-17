@@ -1,5 +1,5 @@
 self.$config = {
-  title: 'My Docs',
+  title: 'cash-year',
   repo: 'egoist/cash-year',
   nav: [
     {title: 'Home', path: '/'},
